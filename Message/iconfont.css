@@ -1,0 +1,32 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1591966_u346be35l6.eot?t=1577781250201'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1591966_u346be35l6.eot?t=1577781250201#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPYAAsAAAAACFQAAAOLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDcIMSATYCJAMUCwwABCAFhG0HSxshBxEVnOPIfh7GxtymOnXNVzkD0c5DTq6JttH434Pn+e/Mc+e9yQKqrEkqIN2K/oOU3cJTAAmA+gNcnHPqZFSEGsnZk0dfSHmUZvA/7h23xOez2i5/7IrWtDFtbQww3tYFtDdGgUSdF0iJcsPYlRdxHQL4k0wepEq1Ok3wRWPME0B6duvSDt+UGV2TKvgiOEq2amQ2Jr7GFOMiMMv/vLyhkPiCgakwbmrQuWpHKtjYl5Xbm5YqFfd4ToDtAgXkATRI/1J3T1QYzYPCX/mdpgLgjy8Gho0damezL3u9Kr0jk7/5hwcaQWGAODCSAwGogGIabGw8NoZCBQTsbAoosC/HMID78oI/7J0A50Y2cNYvZ6ACtV/OwECfwBC/ETefNbn13LrzwnXbHuqvAupt3Dn2yLRD7oNdrjbYnG3h1uiluV3lnFtXbjuQ01oQFePadi5uSY4mkdaW2PmbI9fnci6M7t31VOfNZyNuT29yM9W6NcN1J71vA2djq0vDdoUoRhsgVUcMn3oQw71kw7RNy0SNPdxy2hEHyQ5zH0p56r5jpmQwPSbiIiGbzp9Re5QnQwbffUWHTRr28OrHomGlwoqE8a20rE6ek5FJJQsNHDSpVi2J+d83tGu3KsW29upppbYsValb902Dh1gzylZ8PC9z9+5FikkVnZYhQ5r26IwZIAIRl/XQzAwZKLr2w9K5sy2NeUvmzFu6dN5sBK6VWSF9rLQ0a9266tUtvBphHbDOFfGyoHU54jLFJYf9PgJHfoclA2dss/h1YSZ5dUneyqv+1+8w6tPTJW1CynzzDdAApBfMafh53hqVCj/HSGviL/bTAqA5ZVhMLRO2UfyZCGBSFAVvgfhhFf/OH86DcUxRrcMg+KYIBgY+JIHClyw8LcoDJgEUAQe+lAd/clN9dwAR9Ech2g/IxQQAQii7wCCYI6AI5RJPi+6DSTTvwEGoKPDHKRFHBpBNCP5yJRSMGuQfvBoHY9n4EqS+0C5JUJLyxT+k7APQlHU28cQBaYwVebUtswFDYw8PcBumNMJEY0DFpWOeuqoyZQ8q1dgXFyoTCkYN8g9ejYNxG/Ml9/4X2iUJqqmp6P+Qsh8cmrJuwXsahlY113JPXm3LbMDQ2MMDODGZ0RGm8kkBFZeuR3jqKlTPtDWU85v6Z9wE+GOsMMUQJVpMcaC7nbv4oMVgzzjmRSnM+bgJGvxgiwIA') format('woff2'),
+  url('//at.alicdn.com/t/font_1591966_u346be35l6.woff?t=1577781250201') format('woff'),
+  url('//at.alicdn.com/t/font_1591966_u346be35l6.ttf?t=1577781250201') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1591966_u346be35l6.svg?t=1577781250201#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-info:before {
+  content: "\e610";
+}
+
+.icon-danger:before {
+  content: "\e6ce";
+}
+
+.icon-success:before {
+  content: "\e626";
+}
+
+.icon-warning:before {
+  content: "\e600";
+}
