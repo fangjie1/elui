@@ -1,0 +1,103 @@
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.3);
+    padding: 16px;
+  
+}
+.button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #303030;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+ 
+}
+.button:hover {
+    border-color: lightskyblue;
+    color: lightskyblue
+}
+
+.button.primary {
+    background-color: lightskyblue;
+    color: #fff;
+    border: 0;
+}
+.dialog {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: all .3s;
+    z-index: 1;
+}
+
+.dialog.show {
+    display: block;
+}
+.dialog.appear {
+    opacity: 1;
+}
+.dialog .main {
+    width: 60%;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-200px);
+    transition: all .3s;
+    opacity: 0;
+    
+}
+.dialog.appear .main {
+    transform: translateY(100px);
+    opacity: 1;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .close {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: none;
+     padding: 4px;
+}
+
+.header .close::before,
+.header .close::after {
+     content: '';
+     position: absolute;
+     width: 10px;
+     height: 1px;
+     background: #333;
+     transform: rotate(45deg);
+}
+
+.header .close::after {
+
+     transform: rotate(135deg);
+}
+
+.footer {
+     display: flex;
+     justify-content: flex-end;
+}
+
+.footer button {
+     margin-left: 10px;
+}

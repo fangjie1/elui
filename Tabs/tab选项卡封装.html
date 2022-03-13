@@ -106,10 +106,10 @@
                 this.init()
                 this.bind()
             }
-            init() {
+            init () {
                 this.$line.style.width = this.$$tabItems[0].offsetWidth + 'px'
             }
-            bind() {
+            bind () {
                 let self = this
                 this.$$tabItems.forEach($tab => {
                     $tab.onclick = function () {
@@ -118,7 +118,7 @@
 
                         self.$line.style.transform = `translateX(${this.offsetLeft}px)`
 
-                        let index = [...$$tabItems].indexOf(this)
+                        let index = [...self.$$tabItems].indexOf(this)
                         self.$$tabPanels.forEach($panel => $panel.classList.remove('active'))
                         self.$$tabPanels[index].classList.add('active')
                     }

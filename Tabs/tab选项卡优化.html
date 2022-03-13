@@ -94,7 +94,6 @@
                 this.classList.add('active')
 
                 $line.style.transform = `translateX(${this.offsetLeft}px)`
-
                 let index = [...$$tabItems].indexOf(this)
                 $$tabPanels.forEach($panel => $panel.classList.remove('active'))
                 $$tabPanels[index].classList.add('active')
